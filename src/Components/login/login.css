@@ -1,0 +1,86 @@
+.login{
+    width: 90%;
+    margin: 24px 0;
+    padding: 20px 40px;
+}
+.login h1{
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.login .or{
+    font-weight: 600;
+}
+.main_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main_row img{
+    width: 450px;
+}
+.main_row .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup span{
+    color: #333333;
+    font-size: 18px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.signup span b{
+    margin-right: 14px;
+}
+.signup span i{
+    font-size: 30px;
+    margin-right: 16px;
+    color: #4a5fd6;
+    cursor: pointer;
+}
+.inputs input{
+    width: 380px;
+    height: 40px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(167, 162, 197);
+    background: transparent;
+}
+.remember_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 380px;
+}
+.inputs .checkbox{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.inputs .signUp_btn{
+    width: 380px;
+    padding: 10px 0;
+    border: none;
+    background-color: #0984e3;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.inputs a{
+    text-decoration: none;
+}
